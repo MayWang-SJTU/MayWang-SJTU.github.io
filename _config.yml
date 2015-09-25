@@ -4,7 +4,7 @@ disqus_shortname:
 reading_time:     false
 comments:         yes
 words_per_minute: 
-# Your site's domain goes here (eg: //MayWang-SJTU.github.io, http://mademistakes.com, etc)
+# Your site's domain goes here (eg: //MayWang-SJTU.github.io, etc)
 # When testing locally leave blank or use http://localhost:4000
 url:
 
@@ -16,7 +16,7 @@ owner:
   email:          
   # Social networking links used in footer. Update and remove as you like.
   twitter:        
-  facebook:       david15894
+  facebook:       MayWang515
   github:         MayWang-SJTU
   stackexchange:  
   linkedin:       
