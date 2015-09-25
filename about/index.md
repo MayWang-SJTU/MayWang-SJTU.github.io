@@ -15,7 +15,8 @@ I'm interested in <b>Wireless Communication Network, Indoor Localization Systems
 - Programming languages: <b>C/C++/C#, Python</b>, Java/Android, Html-5, Css-3, a little bit of Php, JavaScript.<br>
 - OS: MS Windows, a bit of Linux.
 <br><br><br><br><br>
-...How can you contact me? Ask me something? <a href="http://MayWang-SJTU.github.io/Ask-me/">&#9654; Click here!</a><br>or send an email directly to <b>wangmei1994515@gmail.com</b>
+...How can you contact me? Ask me something? <a href="http://MayWang-SJTU.github.io/Ask-me/">&#9654; Click here!</a>
+<br>or send an email directly to <b>wangmei1994515@gmail.com</b>
 <br>
 
 <h2 style="color: #006699">Contact details:</h2>

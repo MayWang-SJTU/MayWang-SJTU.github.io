@@ -1,11 +1,11 @@
 ---
 layout: post-index
 title: All Posts
-description: "An archive of Research."
+description: "An archive of Awards."
 comments: false
 ---
 
-{% for post in site.Research %}
+{% for post in site.Awards %}
     {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
     {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
 

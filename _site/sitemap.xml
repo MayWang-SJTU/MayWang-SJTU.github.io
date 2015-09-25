@@ -4,13 +4,19 @@
     <loc>/404.html</loc>
   </url>
   <url>
-    <loc>/Projects/</loc>
+    <loc>/Activities/</loc>
+  </url>
+  <url>
+    <loc>/</loc>
   </url>
   <url>
     <loc>/Research/</loc>
   </url>
   <url>
-    <loc>/</loc>
+    <loc>/Projects/</loc>
+  </url>
+  <url>
+    <loc>/Awards/</loc>
   </url>
   <url>
     <loc>/about/</loc>
