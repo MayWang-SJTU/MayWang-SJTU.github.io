@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>/404.html</loc>
+    <loc>http://MayWang-SJTU.github.io/404.html</loc>
   </url>
   <url>
-    <loc>/Activities/</loc>
+    <loc>http://MayWang-SJTU.github.io/Activities/</loc>
   </url>
   <url>
-    <loc>/</loc>
+    <loc>http://MayWang-SJTU.github.io/</loc>
   </url>
   <url>
-    <loc>/Research/</loc>
+    <loc>http://MayWang-SJTU.github.io/Research/</loc>
   </url>
   <url>
-    <loc>/Projects/</loc>
+    <loc>http://MayWang-SJTU.github.io/Projects/</loc>
   </url>
   <url>
-    <loc>/Awards/</loc>
+    <loc>http://MayWang-SJTU.github.io/Awards/</loc>
   </url>
   <url>
-    <loc>/about/</loc>
+    <loc>http://MayWang-SJTU.github.io/about/</loc>
   </url>
 </urlset>

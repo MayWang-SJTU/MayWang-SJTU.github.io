@@ -1,21 +1,26 @@
-title:            Hi, friends!
-description:      May Wang
+title:            May Wang's Homepage
+description:      Shanghai Jiao Tong University
 disqus_shortname: 
 reading_time:     false
 comments:         yes
 words_per_minute: 
+favicon:          avatar.jpg
 # Your site's domain goes here (eg: //MayWang-SJTU.github.io, etc)
 # When testing locally leave blank or use http://localhost:4000
-url:
+url:              http://MayWang-SJTU.github.io
+baseurl:          http://MayWang-SJTU.github.io
+rss_url:          
 
 # Owner/author information
 owner:
   name:           May Wang
+  title:          SJTU
+  address:        Shanghai, China
   avatar:         avatar.jpg
   bio:            "Some Observations On TECH and LIFE."
-  email:          
+  email:          wangmei1994515@gmail.com
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        
+  twitter:        MayChandle
   facebook:       MayWang515
   github:         MayWang-SJTU
   stackexchange:  
@@ -25,6 +30,60 @@ owner:
   tumblr:         
   # google plus id, include the '+', eg +mmistakes
   google_plus:    
+  
+  workHistory:
+    - work1:
+      company: Finzsoft Solutions Ltd
+      location: Auckland, New Zealand
+      title: Java Developer
+      started: 2014
+      duration: (2014 - Present)
+      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
+    - work2:
+      company: Agfa HealthCare
+      location: Shanghai, China
+      title: Java Developer
+      started: 2012
+      duration: (2012 - 2014)
+      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
+    - work3:
+      company: Citigroup Services and Technology (China) Limited
+      location: Shanghai, China
+      title: Java Developer
+      started: 2009
+      duration: (2009 - 2012)
+      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
+  educationHistory:
+    - education1:
+      organization: Shanghai Jiao Tong University
+      degree: Bachelor
+      major: Electric Engineering & Computer Science
+      started: 2012
+      duration: (2012 - 2016)
+      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
+  languages:
+    - language1:
+      name: Chinese
+      proficiency: Native
+    - language2:
+      name: English
+      proficiency: iBT-101
+  programmingSkills:
+    - skill1:
+      name: C++
+      percentage: 90%
+    - skill2:
+      name: Python
+      percentage: 90%
+    - skill3:
+      name: Matlab
+      percentage: 80%
+    - skill4:
+      name: Mathematica
+      percentage: 80%
+    - skill5:
+      name: Android/iOS
+      percentage: 80%
 
 # Background image to be tiled on all pages
 background: 
