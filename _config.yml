@@ -7,8 +7,8 @@ words_per_minute:
 favicon:          avatar.jpg
 # Your site's domain goes here (eg: //MayWang-SJTU.github.io, etc)
 # When testing locally leave blank or use http://localhost:4000
-url:              http://MayWang-SJTU.github.io
-baseurl:          http://MayWang-SJTU.github.io
+url:
+baseurl:          
 rss_url:          
 
 # Owner/author information
@@ -33,26 +33,27 @@ owner:
   
   workHistory:
     - work1:
-      company: Finzsoft Solutions Ltd
-      location: Auckland, New Zealand
-      title: Java Developer
-      started: 2014
-      duration: (2014 - Present)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
+      company: Indoor Localization
+      location: Shanghai Jiao Tong University
+      title: Intelligent Internet of Things Lab (IIoT)
+      started: 2015
+      duration: (2015.3 - Present)
+      description: Last semester I mainly focus on studying the temporal correlation effects on RSS finger printing based indoor localization method. From my theoretical derivation and scientific calculation for now, I have found that temporal correlation of signals can definitely correct the localization criteria for MLE method, so that it can significantly improve the fundamental limits like accuracy and reliability. With expected experiment results, I have wrote a paper as the first author and submitted it for INFOCOM this summer.
     - work2:
-      company: Agfa HealthCare
-      location: Shanghai, China
-      title: Java Developer
-      started: 2012
-      duration: (2012 - 2014)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
+      company: Cellular Network
+      location: Shanghai Jiao Tong University
+      title: Institute of Wireless Communication and Technology (IWCT) and Ericsson
+      started: 2014
+      duration: (2014.7 - 2015.4)
+      description: During the second half of last year, I assisted in the completion of a cooperation project between IWCT (Institute of Wireless Communication and Technology) and Ericsson. I wrote a simulation software with C++ to model the user behavior propagation in 3GPP communication network. In addition, this project gave me an idea on future research areas on NFV network optimization.
     - work3:
-      company: Citigroup Services and Technology (China) Limited
-      location: Shanghai, China
-      title: Java Developer
-      started: 2009
-      duration: (2009 - 2012)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
+      company: Intelligent Transportation
+      location: Shanghai Jiao Tong University
+      title: Intelligent Internet of Things Lab (IIoT)
+      started: 2014
+      duration: (2014.9 - 2015.1)
+      description: Last year I participated in a research on intelligent transportation. We designed a system to make lane-level localization with accelerator, gyroscope and GPS on smartphone.
+  
   educationHistory:
     - education1:
       organization: Shanghai Jiao Tong University
@@ -60,7 +61,7 @@ owner:
       major: Electric Engineering & Computer Science
       started: 2012
       duration: (2012 - 2016)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
+      description: I am a student of IEEE pilot class in SJTU, and I will get my bachelor's degree with a double major EE&CS. I wish to say that I am really interested in further study in US, as I have more than one year`s experience in Wireless lab of our college, and I have strong research interests on wireless network and communication.
   languages:
     - language1:
       name: Chinese
@@ -76,14 +77,14 @@ owner:
       name: Python
       percentage: 90%
     - skill3:
-      name: Matlab
-      percentage: 80%
+      name: Java
+      percentage: 60%
     - skill4:
-      name: Mathematica
+      name: Matlab/Mathematica
       percentage: 80%
     - skill5:
       name: Android/iOS
-      percentage: 80%
+      percentage: 70%
 
 # Background image to be tiled on all pages
 background: 
