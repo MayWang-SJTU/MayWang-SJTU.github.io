@@ -1,13 +1,14 @@
 jQuery(function($) {
 
-	// Fixed nav
-	$.fn.checkElementPositioning = function($el, $offsetHeightEl, scrollClass) {
-		if(((this.offset().top - $(window).scrollTop()) <= $offsetHeightEl.outerHeight()) && !$el.hasClass(scrollClass)) {
-			$el.addClass(scrollClass);
-		} else if(((this.offset().top - $(window).scrollTop()) >= $offsetHeightEl.outerHeight()) && $el.hasClass(scrollClass)) {
-			$el.removeClass(scrollClass);
-		}
-	}
+    // Fixed nav
+    $.fn.checkHeaderPositioning = function(scrollEl, scrollClass) {
+        var $me = $(this);
+        if($(scrollEl).scrollTop() > 0) {
+            $me.addClass(scrollClass);
+        } else if($(scrollEl).scrollTop() === 0) {
+            $me.removeClass(scrollClass);
+        }
+    };
   
   // Fade banner
   $.fn.fadeBanner = function($el, scrollClass) {
@@ -55,7 +56,7 @@ jQuery(function($) {
 
       if($('body').hasClass('page-has-banner')) {
 		    // Check content positioning
-		    $('.main-wrap').checkElementPositioning($('body.page-has-banner'), $('.birdseye-header'), 'affix');
+		    $('body').checkHeaderPositioning(window, 'affix');
 		  }
 
       // Add classes to elements
@@ -130,6 +131,14 @@ jQuery(function($) {
     _attachEvents: function() {
     	var base = this;
 
+        $('label.hamburger').on('click', function() {
+            if (!$('body').hasClass('nav-open')) {
+                $('body').addClass('nav-open');
+            } else {
+                $('body').removeClass('nav-open');
+            }
+        });
+
         // Move cart + login
         if ($(window).width() <= 992) {
             $.fn.intervalLoop('.mobile-nav #member-login', base._moveLogin, 800, 5);
@@ -137,9 +146,10 @@ jQuery(function($) {
 
     	// Window scroll
       if($('body').hasClass('page-has-banner')) {
-        $(window).on('scroll', function(){
-          // Affix nav
-          $('.main-wrap').checkElementPositioning($('body.page-has-banner'), $('.birdseye-header'), 'affix');
+            // Fixed header
+        $(window).on('scroll', function() {
+            $('body').checkHeaderPositioning(window, 'affix');
+
           // Fade out banner header
           $('.banner').fadeBanner($('body'), 'fade-on-scroll');
         });
