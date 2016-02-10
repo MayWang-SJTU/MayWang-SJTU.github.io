@@ -1642,6 +1642,13 @@ h2#wsite-com-product-title {
     font-weight: 400;
     line-height: 1.25em;
   }
+  
+  h2 .wsite-headline,
+  p .wsite-headline-paragraph {
+    font-size: inherit !important;
+    line-height: inherit !important;
+  }
+  
   /* Gallery */
   .galleryCaptionHolder {
     display: none;
@@ -1743,7 +1750,7 @@ h2#wsite-com-product-title {
     content: 'CLOSE\00a0\00a0\25b4';
   }
   #wsite-com-store .wsite-com-sidebar.sidebar-expanded #wsite-com-hierarchy {
-    max-height: 100vh;
+    max-height: 1000px;
     padding: 10px 0;
   }
   #wsite-com-store .wsite-com-content-with-sidebar {
